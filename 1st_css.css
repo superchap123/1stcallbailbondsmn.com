@@ -1,0 +1,150 @@
+body { 	background-image: url(images/Wikipedia_USA_Flag.svg);
+		/*background-repeat: repeat;*/
+		background-size: 100% auto;
+		font-size: 12pt;
+		color: #CCCCCC;
+  	font-family:"Sans-serif"
+    margin: 10px 10px 10px 10px;
+}
+
+p { margin: 0px 20px 0px 20px;}
+
+
+pm {
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+/* links */
+a {	font-weight: normal;
+    text-decoration: none;
+  }
+
+a:link {text-decoration: underline; color:#AAAAFF;}      /* unvisited link */
+a:visited {color:#AAFFAA;}  /* visited link */
+a:hover {text-decoration: underline;}  /* mouse over link */
+/*a:active {color:#0000FF;}*/  /* selected link */
+
+h1, h2 { color: #EEEEEE;}
+
+h1 {	text-align: center;
+    font-size: 40pt;
+	margin: 0px 0px 0px 0px;
+	font-family:"Sans-serif"
+}
+
+h2 {	text-align: center;
+	font-size: 30pt;
+	/*margin-bottom: 10px;*/
+	font-family:"Sans-serif"
+}
+
+h3 {	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+	color: #FFCC00;
+	font-family:"Sans-serif"
+}
+
+h4 {	text-align: center;
+	font-weight: bold;
+	margin: 20px;
+	font-family:"Sans-serif"
+}
+
+tl {
+    font-family:"Sans-serif";
+    color:#000000;
+    font-weight: bold;
+}
+
+#container { background-color:  #000022;
+			width: 720px;
+			margin: auto;
+      /*padding: 20px 20px 20px 20px;*/
+}
+
+#header {width: 720px;
+		height: 50px;
+}
+
+#slideshow img {	width: xpx;
+				height: 185px;	
+}
+
+ul#nav {	background-color: #AAAAAA;
+		margin: 5px 0px 5px 0px;
+		padding: 10px;
+		text-align: center;
+}
+
+ul#nav li { display: inline;
+}
+
+
+li {  margin: 10px;
+}
+
+li a {	color: #000022;
+	padding: 5px 5px 5px 5px;
+	font-size: 14pt;
+}
+
+#sidebar {	width: 400px;
+			height: ;
+			float: right;
+			border: 3px solid;
+			border-color: #FFCC00;
+			margin: 10px 10px 10px 10px;
+			padding: 0px 10px 10px 10px;
+}
+
+#sidebar a { padding: 45px;
+}
+
+
+#footer {	background-color: #FFCC00;
+			color: #000022;
+			padding: 10px;
+			text-align: center;
+			font-size: 10pt;
+			clear: both;
+}
+
+th {	background-color: #FFCC00;
+	border: 1px solid #FFCC00;
+	margin: 3px;
+	padding: 5px;
+	color: #000022;
+}
+
+td {	background-color: white;
+	text-align: center;
+	color: black;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 5px;
+}
+
+
+
+table {
+		border: 3px solid #FFCC00;
+		/* margin: 20px 20px 20px 20px; */
+		border-collapse: collapse;
+		/*width: 697px;*/
+}
+
+iframe { margin-left: 74px;
+}
+
+
+#media { text-align: center;
+}
+
+img {	border: none;
+}
+
